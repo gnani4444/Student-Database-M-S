@@ -1,6 +1,5 @@
 <?php
-/* Attempt MySQL server connection. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
+
 require_once 'user.php';
 if (isset($_SESSION['lg_id']) && !empty($_SESSION['lg_id']) ) {
     # code...
